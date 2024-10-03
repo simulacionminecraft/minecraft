@@ -1,0 +1,84 @@
+header {
+  text-align: center;
+  margin: -15px 0;
+}
+
+.titulo {
+  width: 80%;
+    height: auto;
+    max-width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+.texto {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);  /* Fondo blanco con 80% de opacidad */
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 2%; /*fondo de la caja*/
+}
+
+.table {
+  border-collapse: collapse; /* Para evitar espacios entre los bordes */
+  width: 90%; /* Ajusta el ancho de la tabla según sea necesario */
+  margin: 20px auto; /* Centra la tabla horizontalmente y agrega un margen superior */
+}
+
+.table th, .table td {
+  border: 1px solid #000; /* Color y grosor del borde */
+  padding: 8px; /* Espaciado interno para las celdas */
+  text-align: center; /* Alineación del texto al centro */
+  color: #000; /* Color del texto en negro */
+  font-size: 18px; /* Cambia el tamaño de la letra a 18px */
+}
+
+.table th {
+  background-color: #f2f2f2; /* Color de fondo para los encabezados */
+}
+
+
+.intro {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px; /*tamaño de la letra*/
+  padding: 10px;
+  text-align: justify;
+}
+
+.error {
+  color: red; /* Color del texto de error */
+  margin-top: 10px; /* Espacio superior */
+  font-size: 20px;
+}
+
+#numberInput {
+  width: 200px; /* Ajusta el ancho de la caja de entrada */
+  height: 40px; /* Ajusta la altura de la caja de entrada */
+  padding: 10px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de la letra */
+  box-sizing: border-box; /* Incluye el padding en el ancho y alto */
+}
+
+button {
+  height: 40px; /* Igualar la altura con la caja de entrada */
+  padding: 0 20px; /* Espaciado interno del botón (izquierda y derecha) */
+  font-size: 18px; /* Tamaño de la letra del botón */
+  margin-left: 10px; /* Espacio a la izquierda del botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+
+
+body {
+  background-color: white;
+  background-image: url('https://i.pinimg.com/736x/87/41/01/874101c93f78ad5f8c9ff7f55048a5ff.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-position: center; /* Para centrar la imagen */
+    background-size: contain;
+    height: 100vh; /* Para que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Para eliminar márgenes predeterminados */
+     /* Cambia el color del texto si es necesario */
+}
+

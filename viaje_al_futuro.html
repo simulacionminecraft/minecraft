@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title> Viaje al Futuro </title>
+    <link href="estilos/style_etapa1.css" rel="stylesheet">
+    
+                
+
+  </head>
+  <body class="fondo">
+    <main>
+      <div class="container">
+        <header>
+          <img src="imagenes/viaje.png" alt="Título Minecraft" class="titulo">
+        </header>
+        
+        <div class="texto">
+
+        <div class="intro">
+          Bienvenido al simulador, en el espacio en blanco puedes registrar un número que represente
+          la cantidad de cofres con tesoros que desearías encontrar en esta expedición. Comienza 
+          ingresando valores bajos y explora aumentando esta cantidad, con el objetivo de ampliar la
+           cantidad de cofres en tu búsqueda y observar lo que ocurre. Cuando acabes de explorar 
+           regresa con Steve al mundo de Minecraft.
+
+        </div>
+
+          <input type="number" id="numberInput" placeholder="Introduce un número">
+          <button onclick="sumarCuatro()"> Calcular </button>
+          <div id="errorMessage" class="error"></div> <!-- Div para mostrar mensajes de error -->
+          
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Elemento &nbsp;&nbsp;</th>
+                <th scope="col">Cantidad obtenida de cofres con oro &nbsp; </th>
+                <th scope="col">Probabilidad frecuencial &nbsp; </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"> Oro </th>
+                <td> <div id="cantidadOro"></div> </td>
+                <td> <div id="probaOro"></div> </td>
+              </tr>
+              <tr>
+                <th scope="row"> Diamante </th>
+                <td> <div id="cantidadDiam"></div> </td>
+                <td> <div id="probaDiam"></div> </td>
+              </tr>
+              <tr>
+                <th scope="row"> Vacío </th>
+                <td> <div id="cantidadRubi"></div> </td>
+                <td> <div id="probaRubi"></div> </td>
+              </tr>
+            </tbody>
+          </table>
+
+          
+        </div>
+
+        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <script src="script.js"></script>
+
+        
+    </div>
+      
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
