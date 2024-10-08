@@ -4,9 +4,10 @@ header {
 }
 
 .titulo {
-  width: 80%;
-    height: auto;
-    max-width: 100%;
+  width: 90%;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: -2%;
 }
 
 td {
@@ -16,9 +17,10 @@ td {
 .texto {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);  /* Fondo blanco con 80% de opacidad */
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   padding-bottom: 2%; /*fondo de la caja*/
+  margin-top: 0%;
 }
 
 .table {
@@ -41,11 +43,24 @@ td {
 
 
 .intro {
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 18px; /*tamaño de la letra*/
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 10px;
   text-align: justify;
+}
+
+/* Pantallas pequeñas (menos de 600px) */
+@media (max-width: 600px) {
+  .intro {
+    font-size: 16px; /* Disminuye el tamaño para pantallas pequeñas */
+  }
+}
+
+/* Pantallas grandes (más de 1200px) */
+@media (min-width: 1200px) {
+  .intro {
+    font-size: 24px; /* Aumenta el tamaño para pantallas grandes */
+  }
 }
 
 .error {
